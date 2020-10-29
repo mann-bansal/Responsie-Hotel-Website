@@ -1,0 +1,83 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Rosa</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <!--Scroll reveal CDN-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+          </div>
+          <a href="index.html" class="logo"
+            ><img src="images/logo-rosa.png" alt="ROSA"
+          /></a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link ">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Rooms</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link active">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="row">
+        <div class="column">
+          <img src="images/g1.jpeg">
+          <img src="images/g2.jpeg">
+          <img src="images/g4.webp">
+        </div>
+        <div class="column">
+          <img src="images/g5.jpeg">
+          <img src="images/g6.jpeg">
+          <img src="images/g4.webp">
+        </div>
+    </div>
+     
+    <script src="main.js"></script>
+  </body>
+</html>
